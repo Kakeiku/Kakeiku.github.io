@@ -64,8 +64,23 @@
 								<h2 class="major">Projects</h2>
 								<p><em>Cool Stuff I have worked on!</em></p>	
 								<hr>
-								<span class="image main"><img src="images/quickjob.JPG" alt="" /></span>
 								<!-- First Project-->
+								<span class="image main"><img src="images/discord_bot.JPG" alt="" /></span>
+								<h3>Discord Bot</h3>
+								<p class="justify">
+									Discord bot with many planned features, constantly being updated. The main feature of the bot is currently acting as a 
+									"Gacha" simulator for the popular game <a href="https://genshin.mihoyo.com/en" target="_blank">Genshin Impact</a>. This is all 
+									done with the same in-game odds for the different drops as well as including "pity" rolls where a rarer character/weapon is guarenteed
+									after a certain number of attempts. <b><a href="#discord-bot">Click here for commands.</a></b>
+								</p>
+								<ul>
+									<li>Language - JavaScript [Node.js]</li>
+									<li>Storage - Locally as JSON Files, planned move to MongoDB</li>
+								</ul>
+								<a class="button small" href="https://discord.com/oauth2/authorize?client_id=777905432509284362&permissions=268823632&scope=bot" target="_blank">Live Link</a>
+								<hr>
+								<!-- Second Project-->
+								<span class="image main"><img src="images/quickjob.JPG"/></span>
 								<h3>QuikJob</h3>
 								<p class="justify">
 									QuikJob is a final year Capstone Project I developed alongside two others. This web application was created as a 
@@ -76,14 +91,14 @@
 								</p>
 								<ul>
 									<li>Framework - Ruby on Rails</li>
-									<li>Language - HTML | JS | CSS | Ruby</li>
+									<li>Language - HTML | JavaScript | CSS | Ruby</li>
 									<li>Storage - PostgreSQL</li>
 									<li>Deployment - Heroku</li>
 								</ul>
-								<a class="button small" href="https://quikjob.herokuapp.com/">Live Link</a>
-								<a class="button small" href="https://github.com/rmit-s3572300-mohammad-albaghli/QuikJob">Source Code</a>
+								<a class="button small" href="https://quikjob.herokuapp.com/" target="_blank">Live Link</a>
+								<a class="button small" href="https://github.com/rmit-s3572300-mohammad-albaghli/QuikJob" target="_blank">Source Code</a>
 								<hr>
-								<!-- Second Project-->
+								<!-- Third Project-->
 								<h3>Connect 4 AI</h3>
 								<p class="justify">
 									Already given the Connect 4 game itself, our task was to create an AI that would play against us and other students' AI.
@@ -93,7 +108,7 @@
 								<ul>
 									<li>Language - Python</li>
 								</ul>
-								<a class="button small" href="https://github.com/rmit-s3556040-Kevin-Huang/KakeCorp-ai1901-connectfour">Source Code</a>
+								<a class="button small" href="https://github.com/rmit-s3556040-Kevin-Huang/KakeCorp-ai1901-connectfour" target="_blank">Source Code</a>
 							</article>
 
 						<!-- Experience -->
@@ -113,6 +128,61 @@
 								</ul>
 							</article>
 
+						<!-- Discord Bot -->
+							<article id="discord-bot">
+								<h2 class="major">List of commands</h2>
+								<div class="table-wrapper">
+									<table>
+										<thead>
+											<tr>
+												<th>Command</th>
+												<th>Description</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>$wish</td>
+												<td>
+													Perform a single roll.
+													<span class="image main"><img src="images/genshin_wish.JPG"/></span>
+												</td>
+											</tr>
+											<tr>
+												<td>$wish 10</td>
+												<td>Perform a series of 10 rolls - Which guarentees at least a 4 star drop.</td>
+											</tr>
+											<tr>
+												<td>$genshin pity</td>
+												<td>
+													Displays the users current pity numbers.
+													<span class="image main"><img src="images/genshin_pity.JPG"/></span>
+												</td>
+											</tr>
+											<tr>
+												<td>$genshin inventory</td>
+												<td>
+													Shows all current weapons and characters the user owns. Paginated at 10 items per page.
+													<span class="image main"><img src="images/genshin_inventory.JPG"/></span>
+												</td>
+											</tr>
+											<tr>
+												<td>$choose arg1 arg2 arg3</td>
+												<td>
+													Randomly selects one of the given arguments.
+													<span class="image main"><img src="images/choose.JPG"/></span>
+												</td>
+											</tr>
+											<tr>
+												<td>$flip</td>
+												<td>
+													Flips a coin
+													<span class="image main"><img src="images/flip.JPG"/></span>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</article>
 					</div>
 
 				<!-- Footer -->
@@ -121,7 +191,7 @@
 							<li><a href="https://github.com/Kakeiku" class="icon brands fa-github"><span class="label">Github</span></a></li>
 							<li><a href="https://www.linkedin.com/in/kevin-huang-1006/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						</ul>
-						<p class="copyright">Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
