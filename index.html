@@ -1,210 +1,285 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Kevin Huang</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Kevin Huang</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="content">
+          <div class="inner">
+            <h1>Kevin Huang</h1>
+            <p>Computer Science Graduate • Full Stack Developer</p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+          </ul>
+        </nav>
+      </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <!-- About -->
+        <article id="about">
+          <h2 class="major">Who Am I?</h2>
+          <p class="justify">
+            My name is <strong>Kevin Huang</strong> a full stack developer with
+            my current passion revolving around JavaScript development. I
+            graduated from RMIT University at 19 with a bachelor's degree in
+            Computer Science. Listed below is a highlight of some of my skills:
+          </p>
+          <h3>Front-End</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>React / React Native</li>
+            <li>styled-components</li>
+          </ul>
+          <h3>Back-End</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>TypeScript</li>
+            <li>REST API's</li>
+          </ul>
+          <h3>Miscellaneous</h3>
+          <ul>
+            <li>AWS DevOps</li>
+            <li>Git</li>
+            <li>Test Driven Development</li>
+            <li>Agile / Scrum Methodology</li>
+          </ul>
+        </article>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="content">
-							<div class="inner">
-								<h1>Kevin Huang</h1>
-								<p>Computer Science Graduate • Full Stack Developer</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#about">About</a></li>
-								<li><a href="#projects">Projects</a></li>
-								<li><a href="#experience">Experience</a></li>
-							</ul>
-						</nav>
-					</header>
+        <!-- Projects -->
+        <article id="projects">
+          <h2 class="major">Projects</h2>
+          <p><em>Cool Stuff I have worked on!</em></p>
+          <hr />
+          <!-- First Project-->
+          <span class="image main"
+            ><img src="images/discord_bot.JPG" alt=""
+          /></span>
+          <h3>Discord Bot</h3>
+          <p class="justify">
+            Discord bot with many planned features, constantly being updated.
+            The main feature of the bot is currently acting as a "Gacha"
+            simulator for the popular game
+            <a href="https://genshin.mihoyo.com/en" target="_blank"
+              >Genshin Impact</a
+            >. This is all done with the same in-game odds for the different
+            drops as well as including "pity" rolls where a rarer
+            character/weapon is guarenteed after a certain number of attempts.
+            <b><a href="#discord-bot">Click here for commands.</a></b>
+          </p>
+          <ul>
+            <li>Language - JavaScript [Node.js]</li>
+            <li>Storage - Locally as JSON Files, planned move to MongoDB</li>
+          </ul>
+          <a
+            class="button small"
+            href="https://discord.com/oauth2/authorize?client_id=777905432509284362&permissions=268823632&scope=bot"
+            target="_blank"
+            >Live Link</a
+          >
+          <hr />
+          <!-- Second Project-->
+          <span class="image main"><img src="images/quickjob.JPG" /></span>
+          <h3>QuikJob</h3>
+          <p class="justify">
+            QuikJob is a final year Capstone Project I developed alongside two
+            others. This web application was created as a way for employers to
+            find potential staff in a fast and easy way. This is different to
+            your traditional job seeking sites as it suggests you jobs based on
+            what skills you have listed your profile, which is all done with a
+            simple matching algorithm. It also works the other way around by
+            allowing employers to get a list of all job seekers with the skills
+            listed on jobs they have posted.
+          </p>
+          <ul>
+            <li>Framework - Ruby on Rails</li>
+            <li>Language - HTML | JavaScript | CSS | Ruby</li>
+            <li>Storage - PostgreSQL</li>
+            <li>Deployment - Heroku</li>
+          </ul>
+          <a
+            class="button small"
+            href="https://quikjob.herokuapp.com/"
+            target="_blank"
+            >Live Link</a
+          >
+          <a
+            class="button small"
+            href="https://github.com/rmit-s3572300-mohammad-albaghli/QuikJob"
+            target="_blank"
+            >Source Code</a
+          >
+          <hr />
+          <!-- Third Project-->
+          <h3>Connect 4 AI</h3>
+          <p class="justify">
+            Already given the Connect 4 game itself, our task was to create an
+            AI that would play against us and other students' AI. The AI would
+            make a the best move possible with the combination of a minimax
+            algorithm and a board evalution technique. My AI's weakness is that
+            it plays defensively as the points rewarded for a good move is lower
+            than that of losing the game.
+          </p>
+          <ul>
+            <li>Language - Python</li>
+          </ul>
+          <a
+            class="button small"
+            href="https://github.com/rmit-s3556040-Kevin-Huang/KakeCorp-ai1901-connectfour"
+            target="_blank"
+            >Source Code</a
+          >
+        </article>
 
-				<!-- Main -->
-					<div id="main">
+        <!-- Experience -->
+        <article id="experience">
+          <h2 class="major">Work Experience</h2>
+          <h3>Exo Digital</h3>
+          <p class="justify">[Full stack developer]</p>
+          <ul>
+            <li>Building responsive web applications</li>
+            <li>Component building based on design files</li>
+            <li>Working with Shopify Admin API</li>
+            <li>Using Stripe payment API</li>
+            <li>Using react-native to build mobile application</li>
+            <li>Research and spiking prototypes solutions</li>
+            <li>Writing Unit / Integration tests</li>
+            <li>Helping interns with debugging / writing tests</li>
+            <li>
+              Help deploy applications to AWS Amplify and Elastic Beanstalk
+            </li>
+            <li>Using AWS Cognito for user authentication</li>
+            <li>Setup AWS Cloudwatch notifications for Slac</li>
+          </ul>
+        </article>
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">Who Am I?</h2>
-								<p class="justify">
-									My name is <strong>Kevin Huang</strong> and my interest in coding first began when I discovered
-									a program called <a href = "https://www.rainmeter.net/">Rainmeter</a> which allows you to customize desktop
-									widgets. During my final year in highschool I took a class in computing where I learned the basics of pseudocode.
-								</p>
-								<p class ="justify">
-									Deciding I would continue with my hobby, at RMIT University I undertook Bachelor of Computer Science, learning the fundamentals of object-oriented programming in Java. 
-									Then gaining knowledge on web programming, which involved HTML, JS, PHP and CSS. Wishing to further my improve my skills I 
-									took an elective in Ruby on Rails. This propelled my interest towards web development.
-								</p>
-								<em><b>Interesting facts!</b></em>
-								<ul>
-									<li>Graduated University at 19 years old.</li>
-									<li>Bilingual - English | Mandarin.</li>
-									<li>Originally from South Africa.</li>
-									<li>Can fold tiny paper cranes.</li>
-								</ul>
-							</article>
+        <!-- Discord Bot -->
+        <article id="discord-bot">
+          <h2 class="major">List of commands</h2>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Command</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>$wish</td>
+                  <td>
+                    Perform a single roll.
+                    <span class="image main"
+                      ><img src="images/genshin_wish.JPG"
+                    /></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>$wish 10</td>
+                  <td>
+                    Perform a series of 10 rolls - Which guarentees at least a 4
+                    star drop.
+                  </td>
+                </tr>
+                <tr>
+                  <td>$genshin pity</td>
+                  <td>
+                    Displays the users current pity numbers.
+                    <span class="image main"
+                      ><img src="images/genshin_pity.JPG"
+                    /></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>$genshin inventory</td>
+                  <td>
+                    Shows all current weapons and characters the user owns.
+                    Paginated at 10 items per page.
+                    <span class="image main"
+                      ><img src="images/genshin_inventory.JPG"
+                    /></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>$choose arg1 arg2 arg3</td>
+                  <td>
+                    Randomly selects one of the given arguments.
+                    <span class="image main"
+                      ><img src="images/choose.JPG"
+                    /></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>$flip</td>
+                  <td>
+                    Flips a coin
+                    <span class="image main"
+                      ><img src="images/flip.JPG"
+                    /></span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+      </div>
 
-						<!-- Projects -->
-							<article id="projects">
-								<h2 class="major">Projects</h2>
-								<p><em>Cool Stuff I have worked on!</em></p>	
-								<hr>
-								<!-- First Project-->
-								<span class="image main"><img src="images/discord_bot.JPG" alt="" /></span>
-								<h3>Discord Bot</h3>
-								<p class="justify">
-									Discord bot with many planned features, constantly being updated. The main feature of the bot is currently acting as a 
-									"Gacha" simulator for the popular game <a href="https://genshin.mihoyo.com/en" target="_blank">Genshin Impact</a>. This is all 
-									done with the same in-game odds for the different drops as well as including "pity" rolls where a rarer character/weapon is guarenteed
-									after a certain number of attempts. <b><a href="#discord-bot">Click here for commands.</a></b>
-								</p>
-								<ul>
-									<li>Language - JavaScript [Node.js]</li>
-									<li>Storage - Locally as JSON Files, planned move to MongoDB</li>
-								</ul>
-								<a class="button small" href="https://discord.com/oauth2/authorize?client_id=777905432509284362&permissions=268823632&scope=bot" target="_blank">Live Link</a>
-								<hr>
-								<!-- Second Project-->
-								<span class="image main"><img src="images/quickjob.JPG"/></span>
-								<h3>QuikJob</h3>
-								<p class="justify">
-									QuikJob is a final year Capstone Project I developed alongside two others. This web application was created as a 
-									way for employers to find potential staff in a fast and easy way. This is different to your traditional job seeking 
-									sites as it suggests you jobs based on what skills you have listed your profile, which is all done with a simple 
-									matching algorithm. It also works the other way around by allowing employers to get a list of all job seekers with
-									the skills listed on jobs they have posted.
-								</p>
-								<ul>
-									<li>Framework - Ruby on Rails</li>
-									<li>Language - HTML | JavaScript | CSS | Ruby</li>
-									<li>Storage - PostgreSQL</li>
-									<li>Deployment - Heroku</li>
-								</ul>
-								<a class="button small" href="https://quikjob.herokuapp.com/" target="_blank">Live Link</a>
-								<a class="button small" href="https://github.com/rmit-s3572300-mohammad-albaghli/QuikJob" target="_blank">Source Code</a>
-								<hr>
-								<!-- Third Project-->
-								<h3>Connect 4 AI</h3>
-								<p class="justify">
-									Already given the Connect 4 game itself, our task was to create an AI that would play against us and other students' AI.
-									The AI would make a the best move possible with the combination of a minimax algorithm and a board evalution technique.
-									My AI's weakness is that it plays defensively as the points rewarded for a good move is lower than that of losing the game.
-								</p>
-								<ul>
-									<li>Language - Python</li>
-								</ul>
-								<a class="button small" href="https://github.com/rmit-s3556040-Kevin-Huang/KakeCorp-ai1901-connectfour" target="_blank">Source Code</a>
-							</article>
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="icons">
+          <li>
+            <a href="https://github.com/Kakeiku" class="icon brands fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/kevin-huang-1006/"
+              class="icon brands fa-linkedin"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+        </ul>
+        <p class="copyright">
+          Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>.
+        </p>
+      </footer>
+    </div>
 
-						<!-- Experience -->
-							<article id="experience">
-								<h2 class="major">Work Experience</h2>
-								<h3>Dumpling King</h3>
-								<p class="justify">
-									Worked there part time during my studies. Initially started as a waiter but was later promoted to shift manager. During my time
-									there I able to pick up skills such as:
-								</p>
-								<ul>
-									<li>Customer Service</li>
-									<li>Management</li>
-									<li>Improved Mandarin</li>
-									<li>Working efficiently under pressure</li>
-									<li>Communication Skills</li>
-								</ul>
-							</article>
+    <!-- BG -->
+    <div id="bg"></div>
 
-						<!-- Discord Bot -->
-							<article id="discord-bot">
-								<h2 class="major">List of commands</h2>
-								<div class="table-wrapper">
-									<table>
-										<thead>
-											<tr>
-												<th>Command</th>
-												<th>Description</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>$wish</td>
-												<td>
-													Perform a single roll.
-													<span class="image main"><img src="images/genshin_wish.JPG"/></span>
-												</td>
-											</tr>
-											<tr>
-												<td>$wish 10</td>
-												<td>Perform a series of 10 rolls - Which guarentees at least a 4 star drop.</td>
-											</tr>
-											<tr>
-												<td>$genshin pity</td>
-												<td>
-													Displays the users current pity numbers.
-													<span class="image main"><img src="images/genshin_pity.JPG"/></span>
-												</td>
-											</tr>
-											<tr>
-												<td>$genshin inventory</td>
-												<td>
-													Shows all current weapons and characters the user owns. Paginated at 10 items per page.
-													<span class="image main"><img src="images/genshin_inventory.JPG"/></span>
-												</td>
-											</tr>
-											<tr>
-												<td>$choose arg1 arg2 arg3</td>
-												<td>
-													Randomly selects one of the given arguments.
-													<span class="image main"><img src="images/choose.JPG"/></span>
-												</td>
-											</tr>
-											<tr>
-												<td>$flip</td>
-												<td>
-													Flips a coin
-													<span class="image main"><img src="images/flip.JPG"/></span>
-												</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</article>
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="https://github.com/Kakeiku" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://www.linkedin.com/in/kevin-huang-1006/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						</ul>
-						<p class="copyright">Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>.</p>
-					</footer>
-
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
